@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section start  */
+header {
+    position:fixed;
+    width: 100%;
+    background: #c3b8b8;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.logo img {
+    max-width: 110px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.search-bar button:hover{
+    background-color: #ffa500;
+    
+}
+
+.user-account a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+
+/* header section end  */
+
+main {
+    padding: 30px;
+    
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px solid #ddd; */
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+/* .products{
+    display: flex;
+    flex-direction: column;
+} */
+.product-details {
+    /* flex: 2; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.product-details img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.quantity {
+    /* flex: 1; */
+    text-align: center;
+}
+
+.add-to-cart {
+    /* flex: 1; */
+    text-align: center;
+}
+
+.add-to-cart button{
+    margin-top: 20px;
+}
+
+/* footer section start  */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+/* foooter section end  */

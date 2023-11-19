@@ -1,0 +1,29 @@
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.remove-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #d1482e;
+}
+
+/* Hide the row when the 'Remove' button is clicked */
+.remove-btn:active {
+    display: none; /* This will hide the entire row when the button is clicked */
+}
