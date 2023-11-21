@@ -76,10 +76,7 @@ main {
     margin-bottom: 20px;
     margin-top: 50px;
 }
-/* .products{
-    display: flex;
-    flex-direction: column;
-} */
+
 .product-details {
     /* flex: 2; */
     display: flex;
@@ -105,6 +102,10 @@ main {
 
 .add-to-cart button{
     margin-top: 20px;
+}
+.add-to-cart button a{
+    color: #000;
+    text-decoration: none;
 }
 
 /* footer section start  */
